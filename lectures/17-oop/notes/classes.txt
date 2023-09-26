@@ -38,6 +38,8 @@ This is done in the interest of efficiency.
 
 It is important to understand that new allocates memory for an object during run time.
 
+Hence all class objects in java must be allocated dynamically 
+
 Box b1 = new Box();
 Box b2 = b1;
 b1 and b2 will both refer to the same object. The assignment of b1 to b2 did not allocate any memory or copy any part
